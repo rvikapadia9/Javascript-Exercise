@@ -6,3 +6,5 @@ if (Array.isArray(items)) {
 } else {
   console.log("items is NOT an array");
 }
+
+console.log(typeof items);   // object (arrays are objects)
