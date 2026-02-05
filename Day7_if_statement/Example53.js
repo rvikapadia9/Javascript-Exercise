@@ -7,3 +7,4 @@ if (!isAdmin) {
 // Example Outputs:
 // For isAdmin = false, Output: Access denied
 // For isAdmin = true, Output: (no output)  
+// Note: The '!' operator negates the boolean value of isAdmin.
