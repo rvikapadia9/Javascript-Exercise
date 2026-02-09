@@ -5,10 +5,8 @@ const resource = "invoice";
 
 let message;
 
-// Main switch to check the user type
 switch (userType) {
 
-    // Case when user is an Admin
     case "admin":
 
         // Nested switch to check what action admin wants to perform
