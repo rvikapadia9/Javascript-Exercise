@@ -18,5 +18,4 @@ console.log(failingScores); // Output: [35]
 //why?
 // The filter() method creates a new array with all elements that pass the test implemented by the provided function. In this example, we use filter() to select scores greater than 60 for passing scores and scores less than 40 for failing scores. The resulting arrays contain only the scores that meet the specified conditions.
 
-
-s
+            
