@@ -13,7 +13,11 @@
 // Concepts:
 // Arrays can store multiple data types
 let mixed = [10, "hello", true, null, { id: 1 }, [1, 2]];
+<<<<<<< HEAD
 console.log(typeof mixed[0]); // Output: "number"   
+=======
+console.log(typeof mixed[0]); // Output: "number"
+>>>>>>> 63c50fa2740ea86fdb2fa4c084bb83c05ff3937e
 console.log(typeof mixed[1]); // Output: "string"
 console.log(typeof mixed[2]);   // Output: "boolean"
 console.log(typeof mixed[3]);   // Output: "object" (null is considered an object in JavaScript)
