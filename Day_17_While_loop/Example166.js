@@ -3,7 +3,7 @@
 
 // Initialize 'num' to 1
 // Logic: We start our search from 1.
-let num = 1;
+let num = 12;
 
 // Start an infinite while loop
 // Logic: 'true' is always true, so this loop will run forever until we explicitly 'break' out of it.
