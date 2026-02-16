@@ -22,3 +22,13 @@ console.log(factorial(5));
 const factorial1 = (num) => num === 0 || num === 1 ? 1 : num * factorial1(num - 1);
 // Call the arrow function 'factorial1' and log the result
 console.log(factorial1(5));
+
+// Define 'factorial1' using for loop
+ let factorial2 = (num) => {
+    let result = 1;
+    for (let i = 1; i <= num; i++) {
+        result *= i;
+    }
+    return result;
+}
+console.log(factorial2(6));
