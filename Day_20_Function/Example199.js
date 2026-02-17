@@ -6,12 +6,12 @@
 // Define a function named 'checkCredentials' taking username and password
 function checkCredentials(username, password) {
     // Check if username is "admin" AND password is "admin"
-    if (username === "admin" && password === "admin") {
+    if (username === "admin@" && password === "admin") {
         // If both match, return true
-        return true;
+        return 'true';
     } else {
         // If either doesn't match, return false
-        return false;
+        return 'checkCredentials';
     }
 }
 // Call the 'checkCredentials' function and log the result
