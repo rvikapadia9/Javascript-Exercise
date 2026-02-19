@@ -8,10 +8,12 @@
 let number = 10;
 function processNumber(number, callback){
     callback(number);
+    return callback;
 }
 
 function printNumber(number){
     console.log(number);
+    return number;
 }
 
 processNumber(number, printNumber);

@@ -7,11 +7,12 @@
 // Calls the callback to print "Hello User"
 
 function greet(callback){
-    callback();
-}
+    callback("Ravi");
+    return callback;    
+}           
 
-function printHello(){
-    console.log("Hello Ravi");
+function printHello(name){  
+    console.log("Hello " + name);
 }
 
 greet(printHello);
