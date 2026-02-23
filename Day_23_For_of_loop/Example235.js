@@ -14,6 +14,8 @@ let users = [
 for(let user of users){
     console.log(user.role);
 }
+const usersentries = users.entries();
+console.log(users);
 
 //Explanation:
 // The for...of loop is used to iterate over the elements of an array.
