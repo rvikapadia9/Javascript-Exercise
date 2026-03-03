@@ -4,11 +4,11 @@
 // Exercise:
 // Use reduce() to find the product of all numbers.
 
-let nums = [2, 3, 4];
+let nums = [2, 3,4];
 
 let product = nums.reduce(function(accumulator, currentValue) {
     return accumulator * currentValue;
-}, 1);
+},1);
 
 console.log(product);
 
